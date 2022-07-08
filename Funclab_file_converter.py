@@ -7,12 +7,15 @@ Output = "Output_test" # Output folder path
 
 script_name = sys.argv[0] # source file path, sys.argv[0] is the script name, sys.argv[1] is the source file path
 print("Source path: " + script_name)
+source_path = '/Volumes/UNTITLED/14_File_Format_Conversion_FUNCLAB'
 
 # define a function read obspy data under certain folder structure
 
 
 # join script directory and source folder path (Input)
-Input_path = os.path.join(os.path.dirname(script_name), Input)
+
+#Input_path = os.path.join(os.path.dirname(script_name), Input)
+Input_path = os.path.join(source_path,Input)
 #print("Input path: " + Input_path)
 
 # list all files in the Input_path
