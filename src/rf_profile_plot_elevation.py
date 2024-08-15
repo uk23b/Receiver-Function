@@ -423,7 +423,7 @@ def create_lon_lat_moho_pairs(ccp_receiver_function_path):
     return lon_lat_moho_pairs
 
 
-ccp_receiver_function_path = '/Users/utkukocum/Desktop/RF_Surf/final25_good/CCPDATA_dilate/RFs_proc_25_hit10'
+ccp_receiver_function_path = '/Desktop/RF_Surf/final25_good/CCPDATA_dilate/RFs_proc_25_hit10'
 ccp_files = get_all_ccp_paths(ccp_receiver_function_path)
 lon_lat_moho_depths = create_lon_lat_moho_pairs(ccp_receiver_function_path)
 
