@@ -17,7 +17,7 @@ mini = 4.
 maxi = 4.3
 interi = (maxi - mini)/10
 topo_data = '@earth_relief_30s'  # 30 arc second global relief
-vel_path = '/Users/utkukocum/Desktop/RF_Surf/final25/TPWT_4_aniso/'
+vel_path = 'your__vel__path'
 
 # Ensure the plots directory exists
 plots_path = os.path.join(vel_path, 'plots')
