@@ -59,7 +59,7 @@ script_dir = os.path.dirname(script)
 os.chdir(script_dir)
 
 
-main_input_path = '/Users/utkukocum/Desktop/RF_Surf/final25/Dispersion_Grid_Files'
+main_input_path = 'main_path'
 TPWT_folder = 'TPWT'
 ANT_folder = 'ANT'  
 TPWT_folder_path = os.path.join(main_input_path, TPWT_folder)
