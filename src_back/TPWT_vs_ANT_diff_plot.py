@@ -12,7 +12,7 @@ import subprocess
 script_path = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_path)
 region = [36, 51, 36, 44.5]  # Define region as lon_min, lon_max, lat_min, lat_max
-vel_path = '/Users/utkukocum/Desktop/RF_Surf/final25/ANT_original/'
+vel_path = 'your__vel__path'
 plots_path = os.path.join(vel_path, 'plots')
 os.makedirs(plots_path, exist_ok=True)
 
